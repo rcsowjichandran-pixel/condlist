@@ -15,7 +15,7 @@ function ProductList() {
           <li key={index}>
             <h3>{product.name}</h3>
             {product.available ? (
-              <button>[Buy Now]</button>
+              <button>Buy Now</button>
             ) : (
               <span>Out of Stock</span>
             )}
